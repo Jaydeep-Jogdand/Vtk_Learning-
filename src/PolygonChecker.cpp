@@ -26,7 +26,6 @@ void PolygonChecker::GetUserInput()
     }
 }
 
-
 void PolygonChecker::SetupPolygon()
 {
     polygons->InsertNextCell(polygon);
@@ -51,6 +50,7 @@ void PolygonChecker::Render()
     renderWindow->Render();
     renderWindowInteractor->Start();
 }
+
 void PolygonChecker::CheckPointInsidePolygon()
 {
     double x, y, z;

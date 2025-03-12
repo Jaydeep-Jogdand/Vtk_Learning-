@@ -95,7 +95,6 @@ void Polygon2D::CreateBoundingBox(const vtkBoundingBox& bbox) {
     renderer->AddActor(bboxActor);
 }
 
-
 void Polygon2D::CreatePolygonPointMesh(vtkBoundingBox bbox)
 {
 
